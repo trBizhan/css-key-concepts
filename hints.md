@@ -1,4 +1,4 @@
-# Common HTML tags
+# Common CSS properties
 
 ## Hints for if you get stuck!
 
