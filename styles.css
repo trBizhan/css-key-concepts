@@ -1,2 +1,73 @@
-/* Your CSS styles here! */
+fieldset {
+  display: block;
+  margin-inline-start: 1px;
+  margin-inline-end: 20px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 10px;
+  border-style: groove;
+  border-color: rgb(132, 49, 49);
+  border-image: initial;
+}
 
+.legend-text {
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+  color: #dc134c;
+}
+
+.address {
+  font-size: 20px;
+  color: #0903fb;
+}
+
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellowgreen;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:focus {
+  text-decoration: none;
+  background: #bae498;
+}
+
+#text {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.form-hover {
+  background-color: yellowgreen;
+}
+
+.grab {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.cell {
+  cursor: cell;
+}

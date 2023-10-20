@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Tech Returners Surgery: Home</title>
   </head>
 
@@ -62,7 +63,7 @@
 
       <img src="./surgery.png" width="250" alt="image of medical equipments" />
 
-      <address>
+      <address class="address">
         The Tech Returners Surgery,<br />
         115 Mancunian Way,<br />
         Manchester,<br />
@@ -93,27 +94,27 @@
 
       <form>
         <fieldset>
-          <legend>
+          <legend class="legend-text">
             Send us a message by filling out the form below and one of our
             Receptionists will be in touch:
           </legend>
 
-          <p>Are you completing this form on behalf of:</p>
+          <p id="text">Are you completing this form on behalf of:</p>
 
           <label for="self">Yourself </label>
-          <input type="checkbox" id="self" name="self" />
+          <input type="checkbox" class="cell" id="self" name="self" />
 
           <label for="another">Someone else </label>
-          <input type="checkbox" id="another" name="another" />
+          <input type="checkbox" id="another" name="another" class="cell" />
 
           <div>
             <label for="fname">First Name </label>
-            <input type="text" id="fname" name="fname" required />
+            <input type="text" id="fname" class="cell" name="fname" required />
           </div>
 
           <div>
             <label for="lname">Last Name </label>
-            <input type="text" id="lname" name="lname" required />
+            <input type="text" id="lname" class="cell" name="lname" required />
           </div>
 
           <div>
@@ -123,17 +124,29 @@
 
           <div>
             <label for="telephone">Telephone Number: </label>
-            <input type="tel" id="telephone" name="telephone" required />
+            <input
+              type="tel"
+              id="telephone"
+              class="cell"
+              name="telephone"
+              required
+            />
           </div>
 
           <div>
             <label for="email">Email: </label>
-            <input type="email" id="email" name="email" required />
+            <input type="email" id="email" class="cell" name="email" required />
           </div>
 
           <div>
             <label for="message">Your query or message: </label>
-            <input type="text" id="message" name="message" required />
+            <input
+              type="text"
+              id="message"
+              class="cell"
+              name="message"
+              required
+            />
           </div>
 
           <input type="submit" value="Submit" />
